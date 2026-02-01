@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center content */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Buttons / Links */
+a.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+/* Lists (course resources) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #1e7e34;
+}
+
+/* Navigation links */
+nav a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer (optional) */
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}

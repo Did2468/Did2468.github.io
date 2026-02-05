@@ -88,3 +88,12 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+/* Flasy red for notice */
+.important {
+  color: #b71c1c;
+  background-color: #fdecea; 
+  padding: 8px 12px;
+  border-left: 4px solid #b71c1c;
+  font-weight: 600;
+}
